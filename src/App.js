@@ -3,12 +3,13 @@ import React, { useState } from "react";
 import "../src/styleCalc.css";
 
 //creating the over arching function, 'Calculator'
-function Calculator() {
+function Calculator() { 
+  // const nullChar = "";
   const [operand1, setOperand1] = useState("");
   const [operand2, setOperand2] = useState("");
   const [operator, setOperator] = useState("");
   const [result, setResult] = useState("");
-  const nullChar = "";
+
 
   // Creates the function input, allowing for the actual input which is displayed
   function fncInput(value) {
